@@ -8,6 +8,11 @@ $(function() {
     $(".enchant-btn").on("click", function() {
         enchant();
     });
+    
+    $(".showmethemoney-btn").on("click", function() {
+        showmethemoney();
+    });
+   
 });
  
 var weaponList = [
