@@ -12,16 +12,16 @@ $(function() {
  
 var weaponList = [
     { name: "노주희의 돌", price: 0, cost: 100, chance: 100 },
-    { name: "노주희의 구리", price: 50, cost: 200, chance: 98 },
-    { name: "노주희의 주석", price: 100, cost: 300, chance: 95 },
-    { name: "노주희의 청동", price: 300, cost: 400, chance: 90 },
+    { name: "노주희의 구리", price: 50, cost: 200, chance: 95 },
+    { name: "노주희의 주석", price: 100, cost: 300, chance: 90 },
+    { name: "노주희의 청동", price: 300, cost: 400, chance: 85 },
     { name: "노주희의 철", price: 1000, cost: 500, chance: 80 },
-    { name: "노주희의 은", price: 2500, cost: 1000, chance: 70 },
-    { name: "노주희의 금", price: 5000, cost: 2000, chance: 60 },
-    { name: "노주희의 다이아", price: 10000, cost: 10000, chance: 50 },
-    { name: "노주희의 백지수표", price: 25000, cost: 15000, chance: 40 },
-    { name: "노주희의 우주선", price: 100000, cost: 50000, chance: 45 },
-    { name: "노주희의 아름다운 미래", price: 1000000, cost: 0, chance: 40 },
+    { name: "노주희의 은", price: 2500, cost: 1000, chance: 75 },
+    { name: "노주희의 금", price: 5000, cost: 2000, chance: 70 },
+    { name: "노주희의 다이아", price: 10000, cost: 10000, chance: 65 },
+    { name: "노주희의 백지수표", price: 25000, cost: 15000, chance: 60 },
+    { name: "노주희의 우주선", price: 100000, cost: 50000, chance: 55 },
+    { name: "노주희의 아름다운 미래", price: 1000000, cost: 0, chance: 50 },
 ];
  
 var user = {
@@ -68,4 +68,9 @@ function chance(percent) {
         return true;
     else
         return false;
+}
+
+function showmethemoney() {
+    user.money += 10000;
+    rendering();
 }
