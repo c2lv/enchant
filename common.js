@@ -26,7 +26,7 @@ var weaponList = [
     { name: "노주희의 다이아", price: 10000, cost: 10000, chance: 65 },
     { name: "노주희의 백지수표", price: 25000, cost: 15000, chance: 60 },
     { name: "노주희의 우주선", price: 100000, cost: 50000, chance: 55 },
-    { name: "노주희의 아름다운 미래", price: 1000000, cost: 0, chance: 50 },
+    { name: "드디어 성공! 노주희는 부자다~~~", price: 1000000, cost: 0, chance: 50 },
 ];
  
 var user = {
